@@ -16,24 +16,25 @@ This project applies machine learning and deep learning to classify EEG signals 
 ---
 
 ## 📂 Project Structure
-
-
+## Project Structure
+```
 EEG-Flow-Classification/
-│── config.py # Global experiment configuration
-│── main.py # Entry point (training & evaluation)
+│── config.py                 # Global experiment configuration
+│── main.py                   # Entry point (training & evaluation)
 │
 ├── data/
-│   └── loader.py # Load entropy CSVs per subject
+│   └── loader.py             # Load entropy CSVs per subject
 │
 ├── models/
-│   └── ft_transformer.py # Custom FT-Transformer model
+│   └── ft_transformer.py     # Custom FT‑Transformer model
 │
 ├── training/
-│   ├── trainer.py # Training loop & evaluation
-│   └── evaluation.py # Metrics & summaries
+│   ├── trainer.py            # Training loop & evaluation
+│   └── evaluation.py         # Metrics & summaries
 │
 └── utils/
-    └── preprocess.py # Rest-centering & preprocessing
+    └── preprocess.py         # Rest‑centering & preprocessing
+```
 
 ---
 
